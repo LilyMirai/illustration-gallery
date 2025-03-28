@@ -4,6 +4,7 @@ class Illustration:
         self.image_path = image_path
         self.last_edited = last_edited
         self.progress_state = progress_state
+        self.tags = []  # Add tags attribute
 
     def read_state(self, file_path):
         # Logic to read the state from a file
